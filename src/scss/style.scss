@@ -2,10 +2,5 @@
 @import 'vars';
 @import 'global';
 
-body {
-  background-color: $color-white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: $color-text;
-}
+@import 'header';
+@import 'modal';
