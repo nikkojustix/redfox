@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 100;
   display: none;
 
   &__inner {
@@ -41,34 +41,5 @@
   &__descr {
     text-align: center;
     font-weight: 300;
-  }
-}
-
-.form {
-  &__input {
-    width: 100%;
-    padding: 20px;
-    border: 1px solid $color-text;
-    border-radius: 50px;
-    margin-bottom: 20px;
-  }
-
-  &__btn {
-    color: #ffffff;
-    background-color: #db3734;
-    border-radius: 50px;
-    font-weight: 500;
-    text-transform: uppercase;
-    border: none;
-    padding: 20px;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  &__politics {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 300;
-    margin: 0;
   }
 }

@@ -1,15 +1,27 @@
+:root {
+  --color-white: #fff;
+
+  --color-text: #171717;
+  --color-title: #303030;
+
+  --color-primary: #db3734;
+  --color-primary-light: #eb4a47;
+  --color-primary-dark: #bd2b28;
+}
+
 // global
 $container-width: 1160;
 $container-padding: 40;
 
 // colors
-$color-white: #fff;
+$color-white: var(--color-white);
 
-$color-text: #171717;
-$color-title: #303030;
+$color-text: var(--color-text);
+$color-title: var(--color-title);
 
-$color-primary: #db3734;
-$color-primary-dark: #dc1815;
+$color-primary: var(--color-primary);
+$color-primary-light: var(--color-primary-light);
+$color-primary-dark: var(--color-primary-dark);
 
 // fonts
 $font-family-primary: 'NotoSans', sans-serif;

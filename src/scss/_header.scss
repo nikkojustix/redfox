@@ -4,6 +4,8 @@
   left: 0;
   right: 0;
   padding: 10px 0;
+  background-color: $color-white;
+  z-index: 10;
 
   &__inner {
     display: flex;
@@ -47,13 +49,9 @@
   &__callback {
     width: 50px;
     height: 50px;
-    border: none;
-    border-radius: 50%;
-    background-color: $color-primary;
     background-image: url('@img/phone.svg');
     background-position: center;
     background-repeat: no-repeat;
-    cursor: pointer;
   }
 }
 
@@ -65,7 +63,7 @@
     left: 0;
     right: 0;
     z-index: 100;
-    background-color: rgba($color-text, 0.5);
+    background-color: rgba($color: #171717, $alpha: 0.5);
   }
 
   &__inner {
@@ -94,7 +92,7 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: transparent;
+    background-color: $color-white;
     border: none;
     padding: 0;
     cursor: pointer;
@@ -162,7 +160,7 @@
     transition: 0.3s;
     &:hover,
     &:focus {
-      color: $color-primary-dark;
+      color: $color-primary-light;
     }
   }
 
@@ -174,16 +172,14 @@
 .socials {
   &__link {
     margin-right: 10px;
-
-    &--vk {
-    }
-    &--insta {
-    }
-    &--youtube {
-    }
   }
 
   &__img {
+    fill: $color-primary;
+    transition: 0.3s;
+    &:hover {
+      fill: $color-primary-light;
+    }
   }
 }
 

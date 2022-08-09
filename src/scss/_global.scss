@@ -47,3 +47,52 @@ img {
     text-transform: uppercase;
   }
 }
+
+.title {
+  color: $color-title;
+  font-size: 60px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: $color-primary;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+
+  &:active {
+    background-color: $color-primary-dark;
+  }
+}
+
+.form {
+  &__input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid $color-text;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+
+  &__btn {
+    color: $color-white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 16px 0;
+    width: 100%;
+  }
+
+  &__politics {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 20px 0 0;
+  }
+}
